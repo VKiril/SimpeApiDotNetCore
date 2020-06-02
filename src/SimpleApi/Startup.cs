@@ -41,6 +41,7 @@ namespace SimpleApi
                 app.UseHsts();
             }
 
+            // this redirects from http to https 
             app.UseHttpsRedirection();
             app.UseMvc();
         }
